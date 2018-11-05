@@ -12,4 +12,4 @@ If you don't have **browser-sync** installed globally, then run the following:
 
 Run the following in the directory where you have all your **.html**, **.css** and **.js** files everytime you need to serve your static site on the browser:
 
-`browser-sync start -s -f "."`
+`browser-sync start -s "src" -f "."`
