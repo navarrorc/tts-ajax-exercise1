@@ -19,4 +19,4 @@ After all the dependencies have been installed then run the following in the pro
 #### Miscellaneous sources
 * Why are the static files stored in the **docs** directory? [supporting documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
     * In short: "You can configure GitHub Pages to publish your site's source files from ... or a  `/docs` folder on your master branch."
-* Using browserSync as a module in **index.js**, [supporting documentation](https://browsersync.io/docs/api#api-watch)   
+* Using browserSync as a module in **index.js**, [supporting documentation](https://browsersync.io/docs/options#option-watch)   
