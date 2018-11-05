@@ -1,6 +1,6 @@
 ## Running this example
 
-### Make sure you have **<a href="https://nodejs.org/en/" target="_blank">nodejs</a>** installed on your machine then run the following commands in a command prompt or terminal
+### Make sure you have **[nodejs](https://nodejs.org/en/)** installed on your machine then run the following commands in a command prompt or terminal
 
 ---
 
@@ -17,6 +17,6 @@ After all the dependencies have been installed then run the following in the pro
 ---
 
 #### Miscellaneous sources
-* Why are the static files are stored in the **docs** directory? <a href="https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/" target="_blank">supporting documentation</a>
+* Why are the static files are stored in the **docs** directory? [supporting documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
     * In short: "You can configure GitHub Pages to publish your site's source files from ... or a  `/docs` folder on your master branch."
-* Using browserSync, <a href="https://browsersync.io/docs/api#api-watch" target="_blank">supporting documentation</a>    
+* Using browserSync, [supporting documentation](https://browsersync.io/docs/api#api-watch)   
