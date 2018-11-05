@@ -1,4 +1,4 @@
-// console.log($().jquery) // check the version of jQuery being used
+// console.log($().jquery); // check the version of jQuery being used
 
 (function($){
     // console.log('inside the iife');
