@@ -16,7 +16,8 @@ After all the dependencies have been installed then run the following in the pro
 
 ---
 
-#### Miscellaneous sources
+#### Supporting sources
 * Why are the static files stored in the **docs** directory? [supporting documentation](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
     * In short: "You can configure GitHub Pages to publish your site's source files from ... or a  `/docs` folder on your master branch."
-* Using browserSync as a module in **index.js**, [supporting documentation](https://browsersync.io/docs/options#option-watch)   
+* Using browserSync as a module in **index.js**, [supporting documentation](https://browsersync.io/docs/options#option-watch)
+* The Visual Studio Code [REST Client](https://github.com/Huachao/vscode-restclient/blob/master/README.md) extension is being used to understand the [JSONPlaceholder](https://github.com/typicode/jsonplaceholder) Mock API, see the rest.http file
