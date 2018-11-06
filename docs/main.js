@@ -1,8 +1,12 @@
-// console.log($().jquery); // check the version of jQuery being used
+/// <reference path="../_typings/jquery.d.ts" /> 
 
+// var $ = "😈";
+
+/**
+ * Create IIFE (Immediately Invoked Function Expression). 
+ * Now jQuery will be referenced as $ inside the function.
+ * */ 
 (function($){
-    // console.log('inside the iife');
-    // $("#results").html(`<pre>${JSON.stringify(o,null,2)}</pre>`)
 
     $('#get-all').on('click', function(e){
         $.get('https://jsonplaceholder.typicode.com/posts', function(data){
@@ -31,9 +35,5 @@
             $("#results").html('<pre>' + JSON.stringify(data, null, 2) + '</pre>');
         });
     });
-
-
-
-
 
 })(jQuery);
